@@ -13,9 +13,9 @@ const NavBar = () => {
         <p>Practice Areas</p>
         <p>About Us</p>
       </div>
-      <div className={styles.lastButton}>
+      <button className={styles.lastButton} type="submit">
         <p className={styles.buttonText}>Contact Now</p>
-      </div>
+      </button>
     </nav>
   );
 };
