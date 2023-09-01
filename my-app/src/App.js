@@ -5,6 +5,8 @@ import MainBodyTopText from "./components/MainBodyTopText/MainBodyTopText";
 import Choose from "./components/Choose/Choose";
 import GridSection from "./components/GridSection/GridSection";
 import PeopleBox from "./components/PeopleBox/PeopleBox";
+import Members from "./components/Members/Members";
+import Faq from "./components/FAQ/Faq";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Choose />
       <GridSection />
       <PeopleBox />
+      <Members />
+      <Faq />
     </div>
   );
 }
