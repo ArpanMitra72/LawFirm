@@ -7,6 +7,8 @@ import GridSection from "./components/GridSection/GridSection";
 import PeopleBox from "./components/PeopleBox/PeopleBox";
 import Members from "./components/Members/Members";
 import Faq from "./components/FAQ/Faq";
+import Subscribe from "./components/Subscribe/Subscribe";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <PeopleBox />
       <Members />
       <Faq />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }
